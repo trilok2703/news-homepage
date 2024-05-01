@@ -1,12 +1,9 @@
-@font-face {
-  font-family: speciman;
-  src: url(./assets/fonts/Inter-VariableFont_slntwght.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: speciman;
+  font-family: "Inter", sans-serif;
 }
 
 :root {
@@ -58,7 +55,6 @@ main {
   list-style: none;
   color: var(--darkGrayishBlue);
   width: 50%;
-  font-family: speciman;
 }
 
 .header-section li {
@@ -180,7 +176,7 @@ main {
 
 .new-info ul li h3 {
   color: white;
-  font-family: 24px;
+  font-size: 24px;
 }
 
 .new-info ul li p {
